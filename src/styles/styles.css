@@ -1,0 +1,334 @@
+
+
+body {
+  margin-top: 0;
+
+}
+
+/* #root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+} */
+
+
+#root,
+body {
+  width: 100%;
+  overflow-y: auto;
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+  padding-bottom: 2rem;
+  background: linear-gradient( rgba(0, 0, 0, 0.1) -50%, rgb(0, 0, 0) 90%);
+}
+
+header,
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+
+}
+
+#header {
+  padding-top: 1rem;
+  display: flex;
+  flex-direction: row;
+  padding-left: 1rem;
+  background-color: black;
+  padding-bottom: 1rem;
+  margin-left: -.1rem;
+}
+
+#header img {
+  width: 50px;
+  height: 50px;
+  margin-top: 1rem;
+  margin-left: .5rem;
+  transition: 1s;
+}
+#header img:hover {
+  transform: rotate(360deg);
+  transition: 1s;
+  opacity: 10%;
+}
+#headerH1 {
+  margin-left: -.5rem;
+}
+
+/* #h1  {
+  margin: 2rem;
+  border: 2px solid black;
+  padding-top: 2rem;
+  color : black;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+} */
+#container {
+  margin: 2rem;
+  border: 2px solid black;
+  padding-top: 2rem;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  position: relative;
+  z-index: 4;
+  background-color: black;
+}
+
+#h1 {
+  color: white;
+  font-size: 60px;
+  font-family: Arial, Helvetica, sans-serif ;
+  letter-spacing: -.01rem;
+  padding-top: 3rem;
+}
+
+#Google {
+  width: 50px;
+transition: 1s;
+}
+#Google:hover {
+  transform: translateX(20px);
+  transition: 1s;
+}
+
+#Facebook {
+  width: 50px;
+  padding-left: .85rem;
+  transition: 1s;
+}
+#Facebook:hover {
+  transform: translateX(20px);
+  transition: 1s;
+}
+
+#Apple {
+  width: 50px;
+  background-color: white;
+  display: flex;
+  justify-content: flex-start;
+  transition: 1s;
+}
+#Apple:hover {
+  transform: translateX(20px);
+  transition: 1s;
+}
+#google {
+  margin-bottom: 1rem;
+  display: flex;
+  border: 1px solid rgb(134, 134, 134);
+  border-radius: 25px;
+  width: 50vh;
+  justify-content: space-evenly;
+}
+
+#facebook {
+  margin-bottom: 1rem;
+  display: flex;
+  border: 1px solid rgb(134, 134, 134);
+  padding: .5rem;
+  border-radius: 25px;
+  justify-content: space-evenly;
+}
+
+#apple {
+  margin-bottom: 1rem;
+  display: flex;
+  border: 1px solid rgb(134, 134, 134);
+  border-radius: 25px;
+  justify-content: space-evenly;
+}
+#apple:hover {
+  border: 1px solid white;
+  transition: .1s;
+}
+#google:hover {
+    border: 1px solid white;
+    transition: .1s;  
+}
+
+#buttonDiv {
+  margin-top: 3rem;
+  padding: 1rem;
+}
+#facebook:hover {
+    border: 1px solid white;
+    transition: .1s;  
+}
+
+#APPLE {
+  background-color: inherit;
+  border: none;
+  color: white;
+  font-size: larger;
+}
+
+#FACEBOOK {
+  background-color: inherit;
+  border: none;
+  color: white;
+  font-size: larger;
+}
+
+#GOOGLE {
+  background-color: inherit;
+  border: none;
+  color: white;
+  font-size: larger;
+}
+#bottomBorder {
+  padding-top: 2rem;
+  border-bottom: 1px solid rgb(36, 36, 36);
+  margin-left: -7%;
+  margin-right: -7%;
+}
+#container {
+  margin-left: 30%;
+  margin-right: 30%;
+  border-radius: 9px;
+}
+#Email {
+  color: white;
+  padding-bottom: .5rem;
+}
+#Password {
+  color : white;
+  padding-bottom: .5rem;
+}
+#EMAIL {
+  padding-top: 1.5rem;
+  padding-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+#PASSWORD {
+  display: flex;
+  flex-direction: column;
+}
+#email {
+  border: 1px solid rgb(134, 134, 134);
+  height: 50px;
+  background-color:  rgb(22, 22, 22);
+  color: rgb(134, 134, 134);
+  border-radius: 5px;
+  padding-left: 1rem;
+}
+#password {
+  border: 1px solid rgb(134, 134, 134);
+  height: 50px;
+  background-color:  rgb(22, 22, 22);
+  color: rgb(134, 134, 134);
+  border-radius: 5px;
+  padding-left: 1rem;
+}
+#password:hover {
+  border: 1px solid white;
+}
+#email:hover {
+  border: 1px solid white;
+}
+#rememberMe { 
+  color: white;
+}
+.checkbox-apple {
+  position: relative;
+  width: 50px;
+  height: 25px;
+  margin: 0px, 20px, 20px, 20px;
+  margin-top: 25px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.checkbox-apple label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 40px;
+  height: 20px;
+  border-radius: 50px;
+  background: linear-gradient(to bottom, rgb(134, 134, 134),#878787);
+  cursor: pointer;
+  transition: all .3s ease;
+}
+
+.checkbox-apple label:after {
+  content: '';
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  bottom: 1px;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: rgb(20, 19, 19) ;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  transition: all .3s ease;
+}
+
+.checkbox-apple input[type="checkbox"]:checked + label {
+  background: linear-gradient(to bottom, #1ed760, #1ed760);
+}
+.checkbox-apple input[type='checkbox']:checked + label {
+  outline: 3px solid white;
+  outline-offset: 3px;
+}
+
+.checkbox-apple input[type="checkbox"]:checked + label:after {
+  transform: translateX(20px);
+}
+
+
+.checkbox-apple label:hover:after {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+.yep {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0px;
+  height: 0px;
+}
+#rememberMe {
+ margin-top: -5.8%;
+ margin-left: 12%;
+
+ 
+}
+#loginBtn {
+  background-color: #1ed760;
+  width: 350px;
+  height: 50px;
+  border: none;
+  border-radius: 20px;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+}
+#loginbtn {
+  display: flex;
+  justify-content: center;
+  margin-top: 9%;
+  padding-bottom: 3rem;
+  transition: .1s;
+}
+#loginBtn:hover {
+  flex-grow: .1;
+  height: 55px;
+  transition: .1s;
+}
+#loginBtn:active {
+  outline: 4px solid white;
+  outline-offset: 4px;
+  opacity: 50%;
+}
