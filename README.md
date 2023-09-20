@@ -1,5 +1,6 @@
 # Spotify Login UI 
 This project simulates the spotify login UI
+![Screenshot (46)](https://github.com/JL1172/SpotifyLogin/assets/130790079/0151d72f-d7f6-4a06-bfa1-428032320f7c)
 
 ## Motivation
 My general motivation in this project was to challenge myself with some new concepts. Specifically pertaining to designing and styling. I love coding, but how good is a web page without a pleasant UI/UX. Therefore, this was my step in the direction of getting better at styling. I learned a lot during it and it made me fall more in love with the power of front-end design. Overall, this was very fun to do, and I really enjoyed it.
